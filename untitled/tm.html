@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="TMstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Football Fantasy 2k17</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Tranfer Market </a></li>
+                <li><a href="#">My team</a></li>
+                <li><a href="#">My profile</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Welcome to the transfer Market!</h1>
+    <p>This is the place where you can buy players for your own team. Each player has a certain overall </p>
+</body>
+
+<ul class="finder">
+    <li class="selection" id="Heading">
+        Find a player!
+    </li>
+    <li class="selection">
+        <select required name="League">
+            <option>Select a League</option>
+            <option value="La Liga Santander">La Liga Santander</option>
+            <option value="Bundesliga">Bundesliga</option>
+            <option value="Calcio A">Calcio A</option>
+            <option value="Ligue 1">Ligue 1</option>
+            <option value="Liga 1 Betano">Liga 1 Betano</option>
+        </select>
+    </li>
+    <li class="selection">
+        <select name="Team">
+            <option>Select a team</option>
+            <option>Real Madrid</option>
+            <option>FC Barcelona</option>
+            <option>Atletico Bilbao</option>
+            <option>Atletico Madrid</option>
+            <option></option>
+            <option></option>
+            <option></option>
+        </select>
+    </li>
+    <li class="selection">
+        <select name="Position">
+            <option>Select a position</option>
+            <option>Striker</option>
+            <option>Midfielder</option>
+            <option>Defender</option>
+            <option>Goalkeeper</option>
+        </select>
+    </li>
+</ul>
+
+<ul class="list-group-player">
+    <li class="list-group-item">
+        <div class="player-content">
+            <a href="#" class="display-block">
+                <span class="player-rating">
+
+                </span>
+                <span class="player-info">
+                    <img class="player-image" src="http://futhead.cursecdn.com/static/img/17/players_alt/p151152967.png">
+                    <!--<img class="player-club" src="http://futhead.cursecdn.com/static/img/17/clubs/241.png">
+                    <img class="player-club" src="http://futhead.cursecdn.com/static/img/17/nations/52.png">-->
+                    <span class="player-bio" id="player-name">Lionel Messi</span>
+                    <span class="player-bio" id="player-inf"> | FC Barcelona | RW</span>
+                </span>
+                <span class="player-buy">
+
+                </span>
+            </a>
+        </div>
+    </li>
+
+</ul>
+</div>
+
+</html>
